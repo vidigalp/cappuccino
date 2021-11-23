@@ -4,7 +4,7 @@ import os
 import pandas as pd
 import numpy as np
 import click
-from Cappucino.auxiliary import get_gc_parser
+from Cappuccino.auxiliary import get_gc_parser
 
 pd.set_option('display.max_columns', None)
 

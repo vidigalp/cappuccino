@@ -1,5 +1,5 @@
-import Cappucino.G1GCParser as G1GC
-import Cappucino.CMSParser as CMS
+import Cappuccino.G1GCParser as G1GC
+import Cappuccino.CMSParser as CMS
 import re
 
 def get_gc_parser(input_file):

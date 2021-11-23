@@ -1,6 +1,6 @@
 import re
 from tqdm import tqdm
-import Cappucino.GCParser as GCP
+import Cappuccino.GCParser as GCP
 
 class G1GCParser(GCP.JavaGCParser):
     """Parser for G1GC GC Logs"""
@@ -52,8 +52,8 @@ class G1GCParser(GCP.JavaGCParser):
                     regex = re.compile(pattern)
                     capture = regex.match(line)
                     if capture:
-                        #if Cappucino.process_task(capture.groupdict()):
-                        #    dictionary.update(Cappucino.process_task(capture.groupdict()))
+                        #if Cappuccino.process_task(capture.groupdict()):
+                        #    dictionary.update(Cappuccino.process_task(capture.groupdict()))
                         if self.is_size_change_line(line):
                             size_dict = GCP.JavaGCParser.process_size_changes_line(capture.groupdict())
                             dictionary.update(GCP.JavaGCParser.process_size_changes_line(capture.groupdict()))

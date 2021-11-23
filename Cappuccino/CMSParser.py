@@ -1,4 +1,4 @@
-from Cappucino.GCParser import JavaGCParser
+from Cappuccino.GCParser import JavaGCParser
 
 
 class CMSParser(JavaGCParser):

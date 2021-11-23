@@ -4,10 +4,10 @@ with open("README.md", "r") as fp:
     six_long_description = fp.read()
 
 setup(
-    name='cappucino',
+    name='cappuccino',
     version='0.1.4',
-    packages=['Cappucino'],
-    url='https://github.com/vidigalp/cappucino',
+    packages=['Cappuccino'],
+    url='https://github.com/vidigalp/cappuccino',
     license='',
     author='vidigalp',
     author_email='pedro.vidigal@instaclustr.com',
