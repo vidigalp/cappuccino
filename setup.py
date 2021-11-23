@@ -5,7 +5,7 @@ with open("README.md", "r") as fp:
 
 setup(
     name='cappucino',
-    version='0.1.0',
+    version='0.1.4',
     packages=['Cappucino'],
     url='https://github.com/vidigalp/cappucino',
     license='',
