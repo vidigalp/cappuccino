@@ -32,7 +32,7 @@ class G1GCParser(GCP.JavaGCParser):
 
         num_lines = sum(1 for line in open(self.input_file, 'r'))
         with open(self.input_file) as f:
-            for i, line in enumerate(tqdm(f, total=num_lines, desc=self.input_file.split('/')[-1])):
+            for i, line in enumerate(tqdm(f, total=num_lines, desc=self.input_file)):
 
                 if self.is_first_line(line):
 
